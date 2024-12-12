@@ -21,7 +21,7 @@ Con el mismo comando (git add *css )he pasado todos los archivos con la extensio
 ![historial-commits](https://github.com/user-attachments/assets/ba3c672c-e22a-4f0c-9ca5-1a5d04a24062)
 
 + **Configurar el repositori remot**
-Con el comando git add remote url(del repositorio remote) he añadido un repositorio remoto luego con el comando git push origin main he subido los cambios del repositorio local al remeoto.
+Con el comando git add remote url(del repositorio remote) he añadido un repositorio remoto luego con el comando git push origin main he subido los cambios del repositorio local al remeto.
 ![vinculacion-git-remoto](https://github.com/user-attachments/assets/0420cbfa-07df-4031-883f-8d6c571a6004)
 
 [Proyecto Vercel](https://roberts-mendez-examen2425.vercel.app/)
