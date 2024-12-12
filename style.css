@@ -1,18 +1,109 @@
-*{
-
-font-weight: bold;
-
-color:blue;
-
-font-align:left;
+{
+    border:  black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
- header{
- width: 100%;
+
+header{
+    width: 100%;
     background-color:#6495ED;  
     text-align: center;
     margin-bottom: 50px;
 }
+/**nav**/
 
+nav li{
+    display: inline-block;
+    width: 15%;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+   
+}
+ul a{
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    
+   
+}
+ul a:hover{
+    color:#FFD700;
+    cursor: pointer;
+    transition: .3s;
+
+}
+/**estilos generales**/
+p:not(#NoEsteP, #puesto_parrafo){
+    width: 40%;
+}
+.contenedor_lugar_de_trabajo article{
+    margin-bottom: 50px;
+}
+ h2,h3 {
+    background-color: #6495ED;
+    width: 100%;
+    padding: 5px;
+}
+
+
+/**lugar de trabajo**/
+
+
+.contenedor_lugar_de_trabajo{
+    display: flex;
+    flex-direction: column;
+}
+.contenedor_lugar_de_trabajo img{
+    width: 400px;
+}
+.lugar_de_trabajo h2{
+    color: #FFD700;
+}
+/**sector detrabajo**/
+
+.sector img{
+    float: right;
+    margin-right: 500px;
+}
+
+/**puesto de trabajo**/
+
+.puesto img{
+    float: left;
+    margin-right: 20px;
+}
+#puesto_parrafo{
+    width: 70%;
+}
+/**funciones**/
+.funciones img{
+    float: right;
+    margin-right: 500px;
+}
+
+/**glosario**/
+em.destacado{
+    font-weight: bold;
+}
+
+.contenedor_glosario article{
+    margin: 10px;
+    margin-bottom: 100px;
+}
+.glosario_article p{
+    margin-bottom: 35px;
+}
+.glosario h2{
+    color: #FFD700;
+}
+
+
+
+
+
+
+
+/** Footer**/
 footer{
     display: flex;
     justify-content:space-around;
@@ -20,4 +111,20 @@ footer{
     font-size: small;
     align-items: first baseline;
     background-color: #6495ED
+}
+.iconoRedSocial{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icon-elem{
+    list-style: none;
+}
+.icon {
+    margin: 10px;
+    transition: 0,05s;
+    display: inline-block;
+}
+.icon:hover{
+    transform: translateY(-10px);
 }
